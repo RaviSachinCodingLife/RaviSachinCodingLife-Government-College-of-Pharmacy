@@ -179,37 +179,157 @@
   font-size: 0.95rem;
 }
 
+/* Media Query */
 
-
-@media (min-width: 992px) {
-  .navbar .dropdown:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(8px);
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 3rem;
   }
 
-  .navbar .dropdown-menu {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(0px);
+  .leader-card {
+    padding: 25px 20px;
+  }
+
+  .info-section .card-text {
+    font-size: 1.1rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .navbar .nav-link {
+    font-size: 0.95rem;
+  }
+
+  .announcement-bar marquee {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .leader-card {
+    padding: 18px 15px;
+  }
+
+  .leader-name {
+    font-size: 0.9rem;
+  }
+
+  .leader-title {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  .announcement-bar marquee {
+    font-size: 14px;
+  }
+
+  .leader-card {
+    padding: 16px 12px;
+  }
+
+  .info-section .card-title {
+    font-size: 1.05rem;
+  }
+
+  .info-section .btn-primary {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  h1 {
+    font-size: 1.75rem;
   }
 
   h5 {
     font-size: 1rem;
   }
-   .info-section .card-text {
-    text-align: left;
+
+  .navbar .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .announcement-label {
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+
+  .announcement-bar marquee {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .leader-card {
+    padding: 14px 10px;
+  }
+
+  .leader-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .footer-section p,
+  .footer-section li {
+    font-size: 0.85rem;
   }
 }
 
+@media (max-width: 479px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 0.95rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .announcement-label {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  .announcement-bar marquee {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .leader-img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .leader-name {
+    font-size: 0.85rem;
+  }
+
+  .leader-title {
+    font-size: 0.75rem;
+  }
+
+  .info-section .btn-primary {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .footer-section p,
+  .footer-section li {
+    font-size: 0.8rem;
+  }
+}
 
 /* Scrool Bar */
 
