@@ -21,25 +21,25 @@ This website is designed to:
 
 ### 🖥️ Homepage
 
-![Homepage](./assets/images/Screenshot%20(105).png)
+![Homepage](<./assets/images/Screenshot%20(105).png>)
 
 ---
 
 ### 📣 Announcement Bar
 
-![Announcement Bar](./assets/images/Screenshot%20(108).png)
+![Announcement Bar](<./assets/images/Screenshot%20(108).png>)
 
 ---
 
 ### 🖼️ Leader Gallery
 
-![Leader Gallery](./assets/images/Screenshot%20(106).png)
+![Leader Gallery](<./assets/images/Screenshot%20(106).png>)
 
 ---
 
 ### 📞 Contact Form
 
-![Contact Form](./assets/images/Screenshot%20(107).png)
+![Contact Form](<./assets/images/Screenshot%20(107).png>)
 
 ---
 
@@ -57,6 +57,7 @@ This website is designed to:
 
 ---
 
+```bash
 ## 🗂️ Project Structure
 
 📁 Government-College-Of-Pharmacy
@@ -87,6 +88,7 @@ This website is designed to:
 ├── 📄 index.html # Main homepage
 ├── 📄 contact.html # Contact form page
 ├── 📄 README.md # Project documentation (this file)
+```
 
 ---
 
