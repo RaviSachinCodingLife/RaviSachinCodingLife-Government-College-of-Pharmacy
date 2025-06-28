@@ -8,22 +8,29 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #a7c7e7;
   border-radius: 8px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #7baedc;
 }
 
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
 /* Navbar Section */
 
- .navbar {
-   background: rgba(255, 255, 255, 0.85);
+.navbar {
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(15px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   padding: 0.75rem 1.5rem;
@@ -132,7 +139,7 @@
 .hero-content p {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-   line-height: 1.8;
+  line-height: 1.8;
 }
 
 .hero-content .btn-primary {
@@ -142,15 +149,16 @@
   font-size: 1rem;
   border-radius: 50px;
   color: #333333;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .hero-content .btn-primary:hover {
   background: #7baedc;
-   transform: translateY(-2px);
+  transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-} */
+}
 
+*/
 /* Announcement Section */
 
 .announcement-container {
@@ -671,6 +679,7 @@
 /* Responsive */
 
 @media (max-width: 767px) {
+
   .fee-header,
   .fee-item {
     flex-direction: column;
@@ -853,7 +862,7 @@
     padding: 0.5rem 1rem;
   }
 
-  .navbar .navbar-brand, 
+  .navbar .navbar-brand,
   .navbar .nav-link {
     font-size: 0.9rem;
   }
@@ -883,18 +892,20 @@
     font-size: 1.2rem;
   }
 
-  .leader-img, 
-  .rounded-circle, 
+  .leader-img,
+  .rounded-circle,
   .faculty-img-wrapper {
     width: 100px;
     height: 100px;
   }
 
-  .leader-name, .faculty-name {
+  .leader-name,
+  .faculty-name {
     font-size: 0.9rem;
   }
 
-  .leader-title, .faculty-title {
+  .leader-title,
+  .faculty-title {
     font-size: 0.8rem;
   }
 
@@ -914,11 +925,13 @@
     font-size: 1.25rem;
   }
 
-  .eligibility-card h4, .fee-header {
+  .eligibility-card h4,
+  .fee-header {
     font-size: 1rem;
   }
 
-  .eligibility-card p, .fee-item {
+  .eligibility-card p,
+  .fee-item {
     font-size: 0.9rem;
   }
 }
@@ -952,7 +965,9 @@
     height: 200px;
   }
 
-  .leader-img, .rounded-circle, .faculty-img-wrapper {
+  .leader-img,
+  .rounded-circle,
+  .faculty-img-wrapper {
     width: 90px;
     height: 90px;
   }
