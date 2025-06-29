@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Government College of Pharmacy | Institution | Faculty & Facility
-    </title>
+    <title>Faculty & Facility - Govt. College of Pharmacy</title>
 
     <!-- Favicon -->
     <link
@@ -28,206 +26,322 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap"
       rel="stylesheet"
     />
-
-    <style>
-      body {
-        font-family: "Open Sans", sans-serif;
-      }
-    </style>
   </head>
   <body>
     <!-- NavBar Section -->
     <div class="sticky-top" data-include="../components/navbar.html"></div>
 
-    <!-- Heading Section -->
-    <div data-include="../components/heading.html"></div>
+    <!-- Our Leaders Section -->
+    <section class="leader-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Our Leaders</h2>
+        <div class="title-underline mx-auto mb-5"></div>
 
-    <!-- Marquee Section -->
-    <div class="p-5" data-include="../components/marquee.html"></div>
+        <div id="leaderCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="leader-card">
+                  <img
+                    src="../assets/images/fadanvis.png"
+                    class="leader-img"
+                    alt="Shri. Devendra Fadnavis"
+                  />
+                  <h6 class="leader-name">Shri. Devendra Fadnavis</h6>
+                  <p class="leader-title">Hon. Chief Minister</p>
+                </div>
+              </div>
+            </div>
 
-    <!-- Faculty Section -->
-    <section class="faculty-section py-5 bg-light">
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="leader-card">
+                  <img
+                    src="../assets/images/eknath.jpeg"
+                    class="leader-img"
+                    alt="Shri. Eknath Shinde"
+                  />
+                  <h6 class="leader-name">Shri. Eknath Shinde</h6>
+                  <p class="leader-title">Hon. Dy. Chief Minister</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="leader-card">
+                  <img
+                    src="../assets/images/ajit.png"
+                    class="leader-img"
+                    alt="Shri. Ajit Pawar"
+                  />
+                  <h6 class="leader-name">Shri. Ajit Pawar</h6>
+                  <p class="leader-title">Hon. Dy. Chief Minister</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="leader-card">
+                  <img
+                    src="../assets/images/chandrakant-patil-1.jpeg"
+                    class="leader-img"
+                    alt="Shri. Chandrakant Patil"
+                  />
+                  <h6 class="leader-name">Shri. Chandrakant Patil</h6>
+                  <p class="leader-title">
+                    Higher & Technical Education Minister
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="leader-card">
+                  <img
+                    src="../assets/images/Indranil-Naik.png"
+                    class="leader-img"
+                    alt="Shri. Indranil Naik"
+                  />
+                  <h6 class="leader-name">Shri. Indranil Naik</h6>
+                  <p class="leader-title">Hon. Minister of State</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="leader-card">
+                  <img
+                    src="../assets/images/ACSSir.png"
+                    class="leader-img"
+                    alt="Shri B Venugopal Reddy, IAS"
+                  />
+                  <h6 class="leader-name">Shri B Venugopal Reddy, IAS</h6>
+                  <p class="leader-title">
+                    Addl. Chief Secretary, Higher & Technical Education
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#leaderCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#leaderCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty Carousel Section -->
+    <section class="faculty-carousel-section py-5 bg-white">
       <div class="container">
         <h2 class="section-title text-center mb-4" style="color: #004080">
-          Our Faculty
+          Meet Our Faculty
         </h2>
         <div class="title-underline mx-auto mb-5"></div>
 
-        <div class="row g-4 justify-content-center">
-          <!-- Principal (first card, styled like faculty) -->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-3">
+        <div
+          id="facultyCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active text-center">
               <img
                 src="../assets/images/principal.jpg"
-                class="rounded-circle mx-auto"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Dr. P.B. Shamkuwar"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">
-                Dr. P.B. Shamkuwar
-              </h5>
-              <p class="mb-1 text-muted">Principal</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Dr. P.B. Shamkuwar</h5>
+                <p class="text-muted">Principal</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <!-- Faculty Cards -->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <div class="carousel-item active text-center">
               <img
                 src="../assets/images/f2.png"
-                class="rounded-circle mx-auto"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Sunilkumar Bothara"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">
-                Sunilkumar Bothara
-              </h5>
-              <p class="mb-1 text-muted">Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Sunilkumar Bothara</h5>
+                <p class="text-muted">Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <!-- Slide 2 -->
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f3.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Rita Chakole"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Rita Chakole</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Rita Chakole</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <!-- Slide 3 -->
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f4.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Manoj Charde"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Manoj Charde</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Manoj Charde</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <!-- More faculty cards here following same structure -->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <!-- Slide 4 -->
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f5.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Uday Deokate"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Uday Deokate</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Uday Deokate</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <!-- Add remaining slides similarly... -->
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f6.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Yogesh Gavhane"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Yogesh Gavhane</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Yogesh Gavhane</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f7.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Balu Ghule"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Balu Ghule</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Balu Ghule</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f8.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Amrapali Jadhav"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Amrapali Jadhav</h5>
-              <p class="mb-1 text-muted">Asst. Prof (Contract)</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Amrapali Jadhav</h5>
+                <p class="text-muted">Asst. Prof (Contract)</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f9.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Mayura Kale"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Mayura Kale</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Mayura Kale</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f10(1).png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Rajendra Marathe"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">Rajendra Marathe</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Rajendra Marathe</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
+            <div class="carousel-item text-center">
               <img
                 src="../assets/images/f11.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
+                class="faculty-carousel-img d-block mx-auto"
                 alt="Vaishali Nagulwar"
               />
-              <h5 class="mt-3 mb-1" style="color: #004080">
-                Vaishali Nagulwar
-              </h5>
-              <p class="mb-1 text-muted">Associate Prof. (CAS)</p>
-              <a href="#" class="profile-link">View Profile</a>
+              <div class="faculty-info-below mt-3">
+                <h5>Vaishali Nagulwar</h5>
+                <p class="text-muted">Associate Prof. (CAS)</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
+            </div>
+
+            <div class="carousel-item text-center">
+              <img
+                src="../assets/images/f12.png"
+                class="faculty-carousel-img d-block mx-auto"
+                alt="Rajesh Nawale"
+              />
+              <div class="faculty-info-below mt-3">
+                <h5>Rajesh Nawale</h5>
+                <p class="text-muted">Assistant Professor</p>
+                <a href="#" class="profile-link">View Profile</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card text-center p-3 h-100 shadow-sm border-0">
-              <img
-                src="../assets/images/f12.png"
-                class="rounded-circle mx-auto"
-                style="width: 120px; height: 120px"
-                alt="Rajesh Nawale"
-              />
-              <h5 class="mt-3 mb-1" style="color: #004080">Rajesh Nawale</h5>
-              <p class="mb-1 text-muted">Assistant Professor</p>
-              <a href="#" class="profile-link">View Profile</a>
-            </div>
-          </div>
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#facultyCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#facultyCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
       </div>
     </section>

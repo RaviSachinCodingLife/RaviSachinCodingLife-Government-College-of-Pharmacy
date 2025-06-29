@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Government College of Pharmacy | Institution | Infrastructure</title>
+    <title>Infrastructure - Govt. College of Pharmacy</title>
 
     <!-- Favicon -->
     <link
@@ -21,6 +21,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap"
@@ -28,9 +35,6 @@
     />
 
     <style>
-      body {
-        font-family: "Open Sans", sans-serif;
-      }
       .card:hover {
         transform: translateY(-5px);
         transition: 0.3s ease;
@@ -41,139 +45,145 @@
     <!-- NavBar Section -->
     <div class="sticky-top" data-include="../components/navbar.html"></div>
 
-    <!-- Heading Section -->
-    <div data-include="../components/heading.html"></div>
-
-    <!-- Marquee Section -->
-    <div class="p-5" data-include="../components/marquee.html"></div>
-
     <!-- Infrastructure Section -->
     <section class="py-5 infrastructure-section">
       <div class="container">
         <h2 class="section-title text-center">Our Infrastructure</h2>
         <div class="title-underline mx-auto mb-5"></div>
-        <div class="row g-4">
-          <!-- Card 1 -->
-          <div class="col-md-6">
-            <div class="infra-card d-flex h-100">
-              <div class="infra-img">
-                <img
-                  src="../assets/images/Solar Passive Architecture.jpeg"
-                  alt="Solar Passive Architecture"
-                />
+
+        <div class="row g-4 justify-content-center">
+          <!-- Icons -->
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-pc-display icon-lg"></i>
+                <p class="fw-bold">Computer Centre</p>
               </div>
-              <div class="infra-content bg-green">
-                <h5>Solar Passive Architecture</h5>
-                <p>
-                  Passive solar architecture enables cooling of building spaces,
-                  maintaining internal temperatures 5°C cooler than outside,
-                  reducing the need for electrical cooling.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
 
-          <!-- Card 2 -->
-          <div class="col-md-6">
-            <div class="infra-card d-flex h-100">
-              <div class="infra-img">
-                <img src="../assets/images/Library.jpeg" alt="Library" />
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-hdd-network icon-lg"></i>
+                <p class="fw-bold">IT Service Unit</p>
               </div>
-              <div class="infra-content bg-blue">
-                <h5>Library</h5>
-                <ul>
-                  <li>Total number of titles - 1562</li>
-                  <li>Total number of volumes - 8686</li>
-                  <li>Printed Journals - 19</li>
-                  <li>E-Journals - J-Gate, N-List</li>
-                  <li>NPTEL, Swayam Access</li>
-                </ul>
-              </div>
-            </div>
+            </a>
           </div>
 
-          <!-- Card 3 -->
-          <div class="col-md-6">
-            <div class="infra-card d-flex h-100">
-              <div class="infra-img">
-                <img
-                  src="../assets/images/Central Insrtumentation Facility.jpeg"
-                  alt="Instrumentation Facility"
-                />
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-lightbulb icon-lg"></i>
+                <p class="fw-bold">TEQIP</p>
               </div>
-              <div class="infra-content bg-blue">
-                <h5>Central Instrumentation Facility</h5>
-                <p>
-                  Equipped with HPLC, HPTLC, FTIR, GC, AAS, and
-                  UV-Spectrophotometry for advanced research and training.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
 
-          <!-- Card 4 -->
-          <div class="col-md-6">
-            <div class="infra-card d-flex h-100">
-              <div class="infra-img">
-                <img
-                  src="../assets/images/Computer and Internet.jpeg"
-                  alt="Computer and Internet"
-                />
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="library.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-journal-bookmark icon-lg"></i>
+                <p class="fw-bold">Library</p>
               </div>
-              <div class="infra-content bg-green">
-                <h5>Computer & Internet</h5>
-                <ul>
-                  <li>Dedicated computer lab with LAN and internet</li>
-                  <li>Internet surfing & video conferencing facility</li>
-                  <li>Access to online resources and portals</li>
-                </ul>
-              </div>
-            </div>
+            </a>
           </div>
 
-          <!-- Card 5 -->
-          <div class="col-md-6">
-            <div class="infra-card d-flex h-100">
-              <div class="infra-img">
-                <img
-                  src="../assets/images/Laboratories.jpeg"
-                  alt="Laboratories"
-                />
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-hospital icon-lg"></i>
+                <p class="fw-bold">Medical Facilities</p>
               </div>
-              <div class="infra-content bg-green">
-                <h5>Laboratories</h5>
-                <ul>
-                  <li>Spacious, well-equipped modern labs</li>
-                  <li>Pharmaceutics Labs - 2</li>
-                  <li>Pharma Chemistry Labs - 3</li>
-                  <li>Pharmacology Labs - 2</li>
-                  <li>Pharmacognosy Labs - 2</li>
-                  <li>Research & Allied Labs - 6</li>
-                </ul>
-              </div>
-            </div>
+            </a>
           </div>
 
-          <!-- Card 6 -->
-          <div class="col-md-6">
-            <div class="infra-card d-flex h-100">
-              <div class="infra-img">
-                <img
-                  src="../assets/images/Classroom and Teaching.jpeg"
-                  alt="Classroom and Teaching"
-                />
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-trophy icon-lg"></i>
+                <p class="fw-bold">Sports Facilities</p>
               </div>
-              <div class="infra-content bg-blue">
-                <h5>Classroom & Teaching</h5>
-                <ul>
-                  <li>Modern, spacious, interactive classrooms</li>
-                  <li>Classrooms - 4</li>
-                  <li>Tutorial rooms - 3</li>
-                  <li>Teaching aids for enhanced learning</li>
-                </ul>
-              </div>
-            </div>
+            </a>
           </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-rocket-takeoff icon-lg"></i>
+                <p class="fw-bold">Incubation Center</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-house-door icon-lg"></i>
+                <p class="fw-bold">Hostel & Mess</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-flask icon-lg"></i>
+                <p class="fw-bold">Laboratories</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-bank icon-lg"></i>
+                <p class="fw-bold">Bank</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-gender-female icon-lg"></i>
+                <p class="fw-bold">Women Cell</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-people icon-lg"></i>
+                <p class="fw-bold">SC/ST Cell</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-plug icon-lg"></i>
+                <p class="fw-bold">EMU</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <a class="infraLink" href="../workInProgress.html">
+              <div class="infra-icon-card text-center">
+                <i class="bi bi-building icon-lg"></i>
+                <p class="fw-bold">ESU</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Detail Output -->
+        <div id="infra-detail" class="infra-detail-box mt-5 d-none">
+          <h4 id="infra-title" class="mb-3"></h4>
+          <div id="infra-content"></div>
         </div>
       </div>
     </section>
@@ -183,6 +193,10 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <!-- External JS -->
     <script src="../assets/js/index.js"></script>
   </body>

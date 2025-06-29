@@ -14,7 +14,7 @@
 
     <!-- External Css -->
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -29,19 +29,26 @@
   </head>
   <body>
     <!-- NavBar Section -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <img
-          src="../assets/images/logo11-Photoroom.png"
-          alt="Logo"
-          width="45"
-          height="45"
-          class="me-2"
-          style="border-radius: 50%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)"
-        />
-        <span class="fw-bold fs-5" style="color: #991221"
-          >Govt. College of Pharmacy</span
-        >
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light fixed-navbar animated-navbar"
+    >
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <!-- Logo and Title -->
+        <div class="d-flex align-items-center logo-title-wrapper">
+          <img
+            src="../assets/images/logo11-Photoroom.png"
+            alt="Logo"
+            class="logo-img"
+          />
+          <div class="ms-3 d-flex flex-column justify-content-center">
+            <span class="navbar-title-en">Govt. College of Pharmacy</span>
+            <span class="navbar-title-mr"
+              >शासकीय औषधनिर्माणशास्त्र महाविद्यालय</span
+            >
+          </div>
+        </div>
 
         <button
           class="navbar-toggler"
@@ -190,7 +197,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link text-uppercase" href="../workInProgress.html"
-                >RTI Link</a
+                >RTI-Link</a
               >
             </li>
             <li class="nav-item">
