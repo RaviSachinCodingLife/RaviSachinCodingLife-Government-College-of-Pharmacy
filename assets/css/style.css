@@ -104,18 +104,17 @@ body {
   color: #212121;
 }
 
-
 /* Carousel Section  */
 .carousel-hero-section {
   position: relative;
-  height: 70vh;
+  height: 90vh;
   overflow: hidden;
 }
 
 .carousel-hero-section .carousel-inner,
 .carousel-hero-section .carousel-item,
 .carousel-hero-section .carousel-item img {
-  height: 70vh;
+  height: 90vh;
   object-fit: cover;
 }
 
@@ -132,7 +131,6 @@ body {
 }
 
 .carousel-hero-overlay .hero-content {
-  max-width: 900px;
   padding: 2rem;
   border-radius: 20px;
   color: #fff;
@@ -226,13 +224,6 @@ body {
 .company-logo:hover {
   transform: scale(1.1);
   filter: brightness(1) invert(0); 
-}
-
-@media (max-width: 768px) {
-  .company-logo {
-    height: 40px;
-    margin: 0 10px;
-  }
 }
 
 /* Recharch Section */
@@ -415,84 +406,84 @@ body {
 
 
 /* Leader Section */
-.leader-section {
-  background: #f9f9f9;
-  padding: 60px 0;
+.leaders-section {
+  margin-top: 2rem;
 }
 
-.section-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #002244;
-  margin-bottom: 0.5rem;
-}
-
-.title-underline {
-  width: 60px;
-  height: 4px;
-  background: #007bff;
-  border-radius: 4px;
-}
-
-/* Carousel card styling */
-.leader-card {
-  background: #ffffff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-  width: 100%;
-  max-width: 350px;
-  margin: auto;
+.leaders-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.leader-card {
+  background: rgba(123, 174, 220, 0.4);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(123, 174, 220, 0.6);
+  border-radius: 16px;
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease;
+  animation: fadeIn 1.5s ease-out forwards;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  min-height: 250px;
+  width: 100%;
+  animation: fadeInUpCard 1.2s ease-out forwards;
 }
 
 .leader-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-.leader-img {
+.leader-card img {
   width: 100%;
-  height: 350px;
+  height: auto;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  transition: transform 0.5s ease;
 }
 
-.leader-card:hover .leader-img {
+.leader-card:hover img {
   transform: scale(1.05);
 }
 
-/* Text Content */
-.leader-name {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #003366;
-  margin: 16px 0 4px;
-}
 
-.leader-title {
+.leader-card h6 {
   font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 16px;
-  padding: 0 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
-@keyframes fadeInUp {
+.leader-card p {
+  font-size: 0.75rem;
+  color: #ddd;
+  margin: 0;
+}
+
+
+@keyframes fadeInUpCard {
   0% {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
-
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.carousel-item.active .leader-card {
-  animation: fadeInUp 0.6s ease forwards;
+
+.title-underline {
+  width: 60px;
+  height: 4px;
+  background: #007bff;
+  border-radius: 4px;
 }
 
 
@@ -1049,6 +1040,27 @@ body {
 @media (max-width: 767px) {
   .navbar {
     padding: 0.5rem 1rem;
+  }
+
+   .company-logo {
+    height: 40px;
+    margin: 0 10px;
+  }
+    .leader-card {
+    width: 100px;
+    padding: 8px;
+  }
+
+  .leader-card img {
+    height: 90px;
+  }
+
+  .leader-card h6 {
+    font-size: 0.8rem;
+  }
+
+  .leader-card p {
+    font-size: 0.7rem;
   }
 
   .navbar .navbar-brand,

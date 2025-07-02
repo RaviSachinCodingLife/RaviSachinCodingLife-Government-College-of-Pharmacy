@@ -29,125 +29,230 @@
   </head>
   <body>
     <!-- NavBar Section -->
-    <div class="sticky-top" data-include="../components/navbar.html"></div>
-
-    <!-- Our Leaders Section -->
-    <section class="leader-section py-5">
-      <div class="container">
-        <h2 class="section-title text-center">Our Leaders</h2>
-        <div class="title-underline mx-auto mb-5"></div>
-
-        <div id="leaderCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-              <div class="d-flex justify-content-center">
-                <div class="leader-card">
-                  <img
-                    src="../assets/images/fadanvis.png"
-                    class="leader-img"
-                    alt="Shri. Devendra Fadnavis"
-                  />
-                  <h6 class="leader-name">Shri. Devendra Fadnavis</h6>
-                  <p class="leader-title">Hon. Chief Minister</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <div class="leader-card">
-                  <img
-                    src="../assets/images/eknath.jpeg"
-                    class="leader-img"
-                    alt="Shri. Eknath Shinde"
-                  />
-                  <h6 class="leader-name">Shri. Eknath Shinde</h6>
-                  <p class="leader-title">Hon. Dy. Chief Minister</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <div class="leader-card">
-                  <img
-                    src="../assets/images/ajit.png"
-                    class="leader-img"
-                    alt="Shri. Ajit Pawar"
-                  />
-                  <h6 class="leader-name">Shri. Ajit Pawar</h6>
-                  <p class="leader-title">Hon. Dy. Chief Minister</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <div class="leader-card">
-                  <img
-                    src="../assets/images/chandrakant-patil-1.jpeg"
-                    class="leader-img"
-                    alt="Shri. Chandrakant Patil"
-                  />
-                  <h6 class="leader-name">Shri. Chandrakant Patil</h6>
-                  <p class="leader-title">
-                    Higher & Technical Education Minister
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <div class="leader-card">
-                  <img
-                    src="../assets/images/Indranil-Naik.png"
-                    class="leader-img"
-                    alt="Shri. Indranil Naik"
-                  />
-                  <h6 class="leader-name">Shri. Indranil Naik</h6>
-                  <p class="leader-title">Hon. Minister of State</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center">
-                <div class="leader-card">
-                  <img
-                    src="../assets/images/ACSSir.png"
-                    class="leader-img"
-                    alt="Shri B Venugopal Reddy, IAS"
-                  />
-                  <h6 class="leader-name">Shri B Venugopal Reddy, IAS</h6>
-                  <p class="leader-title">
-                    Addl. Chief Secretary, Higher & Technical Education
-                  </p>
-                </div>
-              </div>
-            </div>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light fixed-navbar animated-navbar"
+    >
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <!-- Logo and Title -->
+        <div class="d-flex align-items-center logo-title-wrapper">
+          <img
+            src="../assets/images/logo11-Photoroom.png"
+            alt="Logo"
+            class="logo-img"
+          />
+          <div class="ms-3 d-flex flex-column justify-content-center">
+            <span class="navbar-title-en">Govt. College of Pharmacy</span>
+            <span class="navbar-title-mr"
+              >शासकीय औषधनिर्माणशास्त्र महाविद्यालय</span
+            >
           </div>
+        </div>
 
-          <!-- Carousel controls -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#leaderCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#leaderCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+
+            <!-- Institution -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Institution
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Institution/AboutInstitute.html"
+                    >About Institute</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Institution/Faculty&Facility.html"
+                    >Faculty & Facility</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Institution/Vision&Mission.html"
+                    >Vision & Mission</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Institution/Infrastructure.html"
+                    >Infrastructure</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Institution/Principal'sDesk.html"
+                    >Principal's Desk</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- Admission -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Admission
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../Institution/AboutInstitute.html"
+                    >Program</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../Admission/Eligibility.html"
+                    >Eligibility</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- Section -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Section
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../Section/Alumni.html"
+                    >Alumni</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../Section/Exam.html">Exam</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../Section/Exam.html"
+                    >Student</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    download
+                    href="../assets/Documents/COS WITH PO MAPPING.xlsx"
+                    >COS with PO Mapping</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- Gallery -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../Gallery/Photos.html"
+                    >Photos</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- Others -->
+            <li class="nav-item">
+              <a class="nav-link" href="../workInProgress.html">Tender</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="../workInProgress.html"
+                >RTI-Link</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="../workInProgress.html"
+                >Accreditation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="../workInProgress.html"
+                >NIRF</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="../Contact.html"
+                >Contact</a
+              >
+            </li>
+            <!-- Language Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="languageDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Language
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="languageDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="changeLanguage('en')"
+                    >English</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="changeLanguage('mr')"
+                    >Marathi</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
 
     <!-- Faculty Carousel Section -->
     <section class="faculty-carousel-section py-5 bg-white">
@@ -353,5 +458,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <!-- External JS -->
     <script src="../assets/js/index.js"></script>
+    <!-- Google Translate Integration -->
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,mr",
+            autoDisplay: false,
+          },
+          "google_translate_element_temp"
+        );
+      }
+
+      function changeLanguage(lang) {
+        const select = document.querySelector(".goog-te-combo");
+        if (select) {
+          select.value = lang;
+          select.dispatchEvent(new Event("change"));
+        }
+      }
+    </script>
+    <div id="google_translate_element_temp" style="display: none"></div>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
