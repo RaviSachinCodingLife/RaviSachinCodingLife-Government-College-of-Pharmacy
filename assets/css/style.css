@@ -1325,6 +1325,16 @@ body {
   .fee-item {
     font-size: 0.9rem;
   }
+
+  .notice-label {
+    font-size: 13px;
+    padding: 8px 12px;
+    margin-left: 20px;
+  }
+
+  .announcement-bar marquee {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1367,6 +1377,15 @@ body {
     padding: 6px 12px;
     font-size: 0.85rem;
   }
+    .notice-label {
+    font-size: 12px;
+    padding: 7px 10px;
+    margin-left: 20px;
+  }
+
+  .announcement-bar marquee {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1393,5 +1412,14 @@ body {
 
   .section-title {
     font-size: 1.4rem;
+  }
+    .notice-label {
+    font-size: 11px;
+    padding: 6px 8px;
+    margin-left: 10px;
+  }
+
+  .announcement-bar marquee {
+    font-size: 12px;
   }
 }
