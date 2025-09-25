@@ -290,6 +290,59 @@ body {
   }
 }
 
+/* Admission Forms Section */
+.admission-section {
+  background: linear-gradient(135deg, #f0f7ff, #ffffff);
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem 1rem;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 64, 128, 0.1);
+  border: 1px solid #e5e9f2;
+}
+
+.form-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 64, 128, 0.2);
+  border-color: #004080;
+}
+
+.form-card h4 {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #004080;
+}
+
+.form-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.form-icon {
+  font-size: 4rem; 
+  color: #004080;
+  background: #e6f0ff;
+  width: 120px;   
+  height: 120px;  
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; 
+  transition: background 0.3s, color 0.3s;
+}
+
+.form-card:hover .form-icon {
+  background: #7baedc;
+  color: #fff;
+}
+
+
 /* Placement Section */
 .placement-section {
   background-color: #7baedc;
