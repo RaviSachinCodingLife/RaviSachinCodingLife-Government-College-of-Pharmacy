@@ -75,7 +75,7 @@ This website is designed to:
 │
 ├── 📁 Institution
 │ ├── 📄 About Institute.html # About the college
-│ ├── 📄 Faculty & Facility.html # Faculty details and facilities
+│ ├── 📄 Faculty.html # Faculty details and facilities
 │ ├── 📄 Infrastructure.html # Infrastructure information
 │ ├── 📄 Principle's Desk.html # Principal’s message
 │ └── 📄 Vision & Mission.html # Vision and mission statement
